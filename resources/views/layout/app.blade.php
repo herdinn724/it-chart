@@ -8,10 +8,9 @@
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('assets_pluginAdmin/vendors/mdi/css/materialdesignicons.min.css') }}">
     <link rel="stylesheet" href="{{asset('assets_pluginAdmin/vendors/flag-icon-css/css/flag-icon.min.css') }}">
-    <link rel="stylesheet" href="{{asset('assets_pluginAdmin/vendors/flag-icon-css/css/vendor.bundle.base.css') }}">
-    <!-- mau di hapus -->
     <link rel="stylesheet" href="{{asset('assets_pluginAdmin/vendors/css/vendor.bundle.base.css') }}">
-    <!-- sampai sini diapus -->
+    
+    <link rel="stylesheet" href="{{asset('assets_pluginAdmin/vendors/jquery-bar-rating/css-starts.css') }}">
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <link rel="stylesheet" href="../assets/vendors/jquery-bar-rating/css-stars.css" />
