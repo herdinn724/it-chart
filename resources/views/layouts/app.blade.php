@@ -880,7 +880,6 @@
     <script src="{{asset('assets_pluginAdmin/vendors/flot/jquery.flot.fillbetween.js')}}"></script>
     <script src="{{asset('assets_pluginAdmin/vendors/flot/jquery.flot.stack.js')}}"></script>
     <!-- End plugin js for this page -->
-    {{asset('assets_pluginAdmin')}}
     <!-- inject:js -->
     <script src="{{asset('assets_pluginAdmin/js/off-canvas.js')}}"></script>
     <script src="{{asset('assets_pluginAdmin/js/hoverable-collapse.js')}}"></script>
