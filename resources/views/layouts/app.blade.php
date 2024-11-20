@@ -31,7 +31,7 @@
           <li class="nav-item nav-profile border-bottom">
             <a href="#" class="nav-link flex-column">
               <div class="nav-profile-image">
-                <img src="../assets/images/faces/face1.jpg" alt="profile" />
+                <img src="{{asset('assets_pluginAdmin/images/faces/face1.jpg')}}" alt="profile" />
                 <!--change to offline or busy as needed-->
               </div>
               <div class="nav-profile-text d-flex ml-0 mb-3 flex-column">
@@ -160,7 +160,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../assets/images/faces/face1.jpg" alt="image" class="profile-pic">
+                      <img src="{{asset('assets_pluginAdmin/images/faces/face1.jpg')}}" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Mark send you a message</h6>
@@ -170,7 +170,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../assets/images/faces/face6.jpg" alt="image" class="profile-pic">
+                      <img src="{{asset('assets_pluginAdmin/images/faces/face6.jpg')}}" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Cregh send you a message</h6>
@@ -180,7 +180,7 @@
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item preview-item">
                     <div class="preview-thumbnail">
-                      <img src="../assets/images/faces/face7.jpg" alt="image" class="profile-pic">
+                      <img src="{{asset('assets_pluginAdmin/images/faces/face7.jpg')}}" alt="image" class="profile-pic">
                     </div>
                     <div class="preview-item-content d-flex align-items-start flex-column justify-content-center">
                       <h6 class="preview-subject ellipsis mb-1 font-weight-normal">Profile picture updated</h6>
