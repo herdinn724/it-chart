@@ -42,8 +42,8 @@
           </li>
           <li class="nav-item pt-3">
             <a class="nav-link d-block" href="index.html">
-              <img class="sidebar-brand-logo" src="../assets/images/logo.svg" alt="" />
-              <img class="sidebar-brand-logomini" src="../assets/images/logo-mini.svg" alt="" />
+              <img class="sidebar-brand-logo" src="{{asset('assets_pluginAdmin/images/logo.svg') }}" alt="" />
+              <img class="sidebar-brand-logomini" src="{{asset('assets_pluginAdmin/images/logo-mini.svg) }}" alt="" />
               <div class="small font-weight-light pt-1">Responsive Dashboard</div>
             </a>
             <form class="d-flex align-items-center" action="#">
@@ -148,7 +148,7 @@
               <span class="mdi mdi-chevron-double-left"></span>
             </button>
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-              <a class="navbar-brand brand-logo-mini" href="index.html"><img src="../assets/images/logo-mini.svg" alt="logo" /></a>
+              <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{asset('assets_pluginAdmin//images/logo-mini.svg') }}" alt="logo" /></a>
             </div>
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
@@ -400,7 +400,7 @@
               <div class="col-sm-4 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body p-0">
-                    <img class="img-fluid w-100" src="../assets/images/dashboard/img_1.jpg" alt="" />
+                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_1.jpg') }}" alt="" />
                   </div>
                   <div class="card-body px-3 text-dark">
                     <div class="d-flex justify-content-between">
@@ -419,7 +419,7 @@
               <div class="col-sm-4 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body p-0">
-                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_2.jpg" alt="" />
+                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_2.jpg') }}" alt="" />
                   </div>
                   <div class="card-body px-3 text-dark">
                     <div class="d-flex justify-content-between">
@@ -438,7 +438,7 @@
               <div class="col-sm-4 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body p-0">
-                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_3.jpg')}}" alt="" />
+                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_3.jpg') }}" alt="" />
                   </div>
                   <div class="card-body px-3 text-dark">
                     <div class="d-flex justify-content-between">
@@ -573,7 +573,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face5.jpg" class="mr-2" alt="image" /> Ina Curry </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face5.jpg') }}" class="mr-2" alt="image" /> Ina Curry </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">44%</span>
@@ -591,7 +591,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face7.jpg" class="mr-2" alt="image" /> Lida Fitzgerald </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face7.jpg') }}" class="mr-2" alt="image" /> Lida Fitzgerald </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">65%</span>
@@ -609,7 +609,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face2.jpg" class="mr-2" alt="image" /> Stella Johnson </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face2.jpg') }}" class="mr-2" alt="image" /> Stella Johnson </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">49%</span>
@@ -627,7 +627,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face9.jpg" class="mr-2" alt="image" /> Maria Ortiz </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face9.jpg') }}" class="mr-2" alt="image" /> Maria Ortiz </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">65%</span>
@@ -813,7 +813,7 @@
               <div class="col-sm-6 col-xl-4 stretch-card grid-margin">
                 <div class="card color-card-wrapper">
                   <div class="card-body">
-                    <img class="img-fluid card-top-img w-100" src="../assets/images/dashboard/img_5.jpg" alt="" />
+                    <img class="img-fluid card-top-img w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_5.jpg') }}" alt="" />
                     <div class="d-flex flex-wrap justify-content-around color-card-outer">
                       <div class="col-6 p-0 mb-4">
                         <div class="color-card primary m-auto">
