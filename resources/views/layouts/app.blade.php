@@ -883,7 +883,7 @@
     {{asset('assets_pluginAdmin')}}
     <!-- inject:js -->
     <script src="{{asset('assets_pluginAdmin/js/off-canvas.js')}}"></script>
-    <script src="{{asset('assets_pluginAdmin/js/hoverable-collapse.js')}"></script>
+    <script src="{{asset('assets_pluginAdmin/js/hoverable-collapse.js')}}"></script>
     <script src="{{asset('assets_pluginAdmin/js/misc.js')}}"></script>
     <script src="{{asset('assets_pluginAdmin/js/settings.js')}}"></script>
     <script src="{{asset('assets_pluginAdmin/js/todolist.js')}}"></script>
