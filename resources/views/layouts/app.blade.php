@@ -419,7 +419,7 @@
               <div class="col-sm-4 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body p-0">
-                    <img class="img-fluid w-100" src="../assets/images/dashboard/img_2.jpg" alt="" />
+                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_2.jpg" alt="" />
                   </div>
                   <div class="card-body px-3 text-dark">
                     <div class="d-flex justify-content-between">
@@ -438,7 +438,7 @@
               <div class="col-sm-4 stretch-card grid-margin">
                 <div class="card">
                   <div class="card-body p-0">
-                    <img class="img-fluid w-100" src="../assets/images/dashboard/img_3.jpg" alt="" />
+                    <img class="img-fluid w-100" src="{{asset('assets_pluginAdmin/images/dashboard/img_3.jpg')}}" alt="" />
                   </div>
                   <div class="card-body px-3 text-dark">
                     <div class="d-flex justify-content-between">
@@ -519,7 +519,7 @@
                         <tbody>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face2.jpg" class="mr-2" alt="image" /> Jacob Jensen </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face2.jpg')}}" class="mr-2" alt="image" /> Jacob Jensen </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">85%</span>
@@ -537,7 +537,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face3.jpg" class="mr-2" alt="image" /> Cecelia Bradley </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face3.jpg')}}" class="mr-2" alt="image" /> Cecelia Bradley </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">55%</span>
@@ -555,7 +555,7 @@
                           </tr>
                           <tr>
                             <td>
-                              <img src="../assets/images/faces/face4.jpg" class="mr-2" alt="image" /> Leah Sherman </td>
+                              <img src="{{asset('assets_pluginAdmin/images/faces/face4.jpg')}}" class="mr-2" alt="image" /> Leah Sherman </td>
                             <td>
                               <div class="d-flex">
                                 <span class="pr-2 d-flex align-items-center">23%</span>
