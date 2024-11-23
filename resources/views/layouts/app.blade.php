@@ -43,7 +43,7 @@
           <li class="nav-item pt-3">
             <a class="nav-link d-block" href="index.html">
               <img class="sidebar-brand-logo" src="{{asset('assets_pluginAdmin/images/logo.svg') }}" alt="" />
-              <img class="sidebar-brand-logomini" src="{{asset('assets_pluginAdmin/images/logo-mini.svg) }}" alt="" />
+              <img class="sidebar-brand-logomini" src="{{asset('assets_pluginAdmin/images/logo-mini.svg') }}" alt="" />
               <div class="small font-weight-light pt-1">Responsive Dashboard</div>
             </a>
             <form class="d-flex align-items-center" action="#">
@@ -148,7 +148,7 @@
               <span class="mdi mdi-chevron-double-left"></span>
             </button>
             <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-              <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{asset('assets_pluginAdmin//images/logo-mini.svg') }}" alt="logo" /></a>
+              <a class="navbar-brand brand-logo-mini" href="index.html"><img src="{{asset('assets_pluginAdmin/images/logo-mini.svg')}}" alt="logo" /></a>
             </div>
             <ul class="navbar-nav">
               <li class="nav-item dropdown">
