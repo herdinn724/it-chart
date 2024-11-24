@@ -7,7 +7,7 @@
                 <!--change to offline or busy as needed-->
               </div>
               <div class="nav-profile-text d-flex ml-0 mb-3 flex-column">
-                <span class="font-weight-semibold mb-1 mt-2 text-center">Antonio Olson</span>
+                <span class="font-weight-semibold mb-1 mt-2 text-center">Herdin Hidayat</span>
                 <span class="text-secondary icon-sm text-center">$3499.00</span>
               </div>
             </a>
@@ -39,19 +39,19 @@
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
               <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Transaction</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                  <a class="nav-link" href="pages/ui-features/buttons.html">Purchase</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a>
+                  <a class="nav-link" href="pages/ui-features/dropdowns.html">Sale Order</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+                  <a class="nav-link" href="pages/ui-features/typography.html">Inventory Counting</a>
                 </li>
               </ul>
             </div>
