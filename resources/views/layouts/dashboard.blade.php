@@ -1,4 +1,9 @@
-
+@extends('layouts.app')
+@section('title','dashboard')
+@section('content-header','Dashboard')
+@section('content-action')
+@endsection
+@section('content')
             <!-- first row starts here -->
             <div class="row">
               <div class="col-xl-9 stretch-card grid-margin">
@@ -551,10 +556,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
           <!-- content-wrapper ends -->
           <!-- partial:partials/_footer.html -->
-           @include('layouts.partial.footer')
+        
           <!-- partial -->
         </div>
+        @endsection

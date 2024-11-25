@@ -56,9 +56,10 @@
                   <i class="mdi mdi-plus-circle"></i> Add Prodcut </button>
               </div>
             </div>
+            @yield('content')
         <!-- main-panel ends -->
       </div>
-      
+      @include('layouts.partial.footer')
       <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->
