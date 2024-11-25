@@ -59,7 +59,7 @@
           <li class="nav-item">
             <a class="nav-link" href="pages/icons/mdi.html">
               <i class="mdi mdi-contacts menu-icon"></i>
-              <span class="menu-title">Icons</span>
+              <span class="menu-title">Setting</span>
             </a>
           </li>
           <li class="nav-item">
@@ -74,17 +74,24 @@
               <span class="menu-title">Charts</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
-              <i class="mdi mdi-table-large menu-icon"></i>
-              <span class="menu-title">Tables</span>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic2" aria-expanded="false" aria-controls="ui-basic">
+              <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              <span class="menu-title">Reports</span>
+              <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-basic2">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/ui-features/buttons.html">Purchase</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/ui-features/dropdowns.html">Sale Order</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/ui-features/typography.html">Inventory Counting</a>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="nav-item pt-3">
-            <a class="nav-link" href="http://bootstrapdash.com/demo/plus-free/documentation/documentation.html" target="_blank">
-              <i class="mdi mdi-file-document-box menu-icon"></i>
-              <span class="menu-title">Documentation</span>
-            </a>
-          </li>
-        </ul>
       </nav>
