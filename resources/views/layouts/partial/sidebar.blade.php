@@ -31,7 +31,7 @@
             <span class="nav-item-head">Template Pages</span>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="{{route('dashboard')}}">
               <i class="mdi mdi-compass-outline menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -45,7 +45,7 @@
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item">
-                  <a class="nav-link" href="pages/ui-features/buttons.html">Purchase</a>
+                  <a class="nav-link" href="{{route('purchases.index')}}">Purchase</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="pages/ui-features/dropdowns.html">Sale Order</a>
