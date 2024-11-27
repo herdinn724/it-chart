@@ -52,8 +52,9 @@
                     <p class="m-0">ADE-00234</p>
                   </a>
                 </div>
-                <button type="button" class="btn btn-primary mt-2 mt-sm-0 btn-icon-text">
-                  <i class="mdi mdi-plus-circle"></i> Add Prodcut </button>
+                @yield('content-action')
+                <!-- <button type="button" class="btn btn-primary mt-2 mt-sm-0 btn-icon-text">
+                  <i class="mdi mdi-plus-circle"></i> Add Prodcut </button> -->
               </div>
             </div>
             @yield('content')
